@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SSAppDelegate : NSObject <NSApplicationDelegate>
-
-
+@interface SSAppDelegate : NSObject <NSApplicationDelegate> {
+        NSWindow* win;
+}
 @end
